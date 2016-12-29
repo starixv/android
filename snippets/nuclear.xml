@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+  <project path="build" name="OneRomOne-N/android_build" groups="pdk,tradefed" revision="nuclear-n">
+    <copyfile src="core/root.mk" dest="Makefile" />
+  </project>
+  <project path="vendor/cm" name="OneRomOne-N/android_vendor_cm" revision="nuclear-n" />
+  <project path="vendor/cmsdk" name="OneRomOne-N/cm_platform_sdk" revision="nuclear-n" />
+  <project path="android" name="OneRomOne-N/android" revision="nuclear-n" />
+  <project path="frameworks/base" name="OneRomOne-N/android_frameworks_base" groups="pdk-cw-fs,pdk-fs" revision="nuclear-n" />
+  <project path="packages/apps/Settings" name="OneRomOne-N/android_packages_apps_Settings" groups="pdk-fs" revision="nuclear-n" />
+  <project path="packages/apps/setupwizard" name="OneRomOne-N/android_packages_apps_SetupWizard" groups="pdk-cw-fs,pdk-fs" revision="nuclear-n" />
+  <project path="device/qcom/common" name="LineageOS/android_device_qcom_common" revision="cm-14.1" />
+  <project name="nicholaschum/masquerade" path="packages/apps/masquerade" remote="github" revision="master" />
+</manifest>
