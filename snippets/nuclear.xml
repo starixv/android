@@ -10,4 +10,5 @@
   <project path="packages/apps/Settings" name="OneRomOne-N/android_packages_apps_Settings" groups="pdk-fs" revision="nuclear-n" />
   <!-- <project path="packages/apps/setupwizard" name="OneRomOne-N/android_packages_apps_SetupWizard" groups="pdk-cw-fs,pdk-fs" revision="nuclear-n" /> -->
   <project name="nicholaschum/masquerade" path="packages/apps/masquerade" remote="github" revision="master" />
+  <project path="packages/apps/Dialer" name="OneRomOne-N/android_packages_apps_Dialer" groups="pdk-fs" revision="nuclear-n" />
 </manifest>
