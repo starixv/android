@@ -12,4 +12,28 @@
   <project path="packages/apps/ThemeInterfacer" name="substratum/interfacer" remote="github" revision="n-rootless" />
   <project path="packages/apps/Dialer" name="OneRomOne-N/android_packages_apps_Dialer" groups="pdk-fs" revision="nuclear-n" />
   <project path="packages/apps/OmniSwitch" name="ResurrectionRemix/android_packages_apps_OmniSwitch" revision="nougat" />
+
+
+  <!--Oms-->
+    <!--To Remove-->
+    <remove-project name="LineageOS/android_frameworks_native" />
+    <remove-project name="LineageOS/android_packages_apps_ContactsCommon" />
+    <remove-project name="LineageOS/android_packages_apps_PhoneCommon" />
+    <remove-project name="LineageOS/android_packages_apps_Contacts" />
+    <remove-project name="LineageOS/android_system_core" />
+    <remove-project name="LineageOS/android_packages_apps_PackageInstaller" />
+    <remove-project name="LineageOS/android_system_sepolicy" />
+    <remove-project name="LineageOS/android_packages_apps_ExactCalculator" />
+
+    <!--To Add-->
+    <project path="packages/apps/ExactCalculator" name="OneRomOne-N/android_packages_apps_ExactCalculator" groups="pdk-fs" revision="nuclear-n" />
+    <project path="packages/apps/PhoneCommon" name="OneRomOne-N/android_packages_apps_PhoneCommon" groups="pdk-fs" revision="nuclear-n" />
+    <project path="packages/apps/Contacts" name="OneRomOne-N/android_packages_apps_Contacts" groups="pdk-fs" revision="nuclear-n" />
+    <project path="packages/apps/ContactsCommon" name="OneRomOne-N/android_packages_apps_ContactsCommon" groups="pdk-fs" revision="nuclear-n" />
+    <project path="packages/apps/PackageInstaller" name="OneRomOne-N/android_packages_apps_PackageInstaller" groups="pdk-fs" revision="nuclear-n" />
+    <project path="system/core" name="OneRomOne-N/android_system_core" groups="pdk-fs" revision="nuclear-n" />
+    <project path="system/sepolicy" name="OneRomOne-N/android_system_sepolicy" groups="pdk-fs" revision="nuclear-n" />
+    <project path="frameworks/native" name="OneRomOne-N/android_frameworks_native" groups="pdk-fs" revision="nuclear-n" />
+
+
 </manifest>
