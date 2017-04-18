@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
-  <project path="build" name="OneRomOne-N/android_build" groups="pdk,tradefed" revision="nuclear-n">
+  <project path="build" name="OneRomOne-N/android_build" groups="pdk" revision="nuclear-n">
     <copyfile src="core/root.mk" dest="Makefile" />
   </project>
   <project path="vendor/cm" name="OneRomOne-N/android_vendor_cm" revision="nuclear-n" />
