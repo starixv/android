@@ -13,6 +13,7 @@
   <project path="packages/apps/ThemeInterfacer" name="substratum/interfacer" remote="github" revision="n-rootless" />
   <project path="packages/apps/Dialer" name="OneRomOne-N/android_packages_apps_Dialer" groups="pdk-fs" revision="nuclear-n" />
   <project path="packages/apps/OmniSwitch" name="ResurrectionRemix/android_packages_apps_OmniSwitch" revision="nougat" />
+  <project path="packages/apps/Launcher3" name="OneRomOne-N/android_packages_apps_Launcher3" revision="nuclear-n" />
 
 
   <!--Oms-->
