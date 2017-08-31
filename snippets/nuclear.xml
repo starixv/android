@@ -15,7 +15,7 @@
   <project path="packages/apps/OmniSwitch" name="ResurrectionRemix/android_packages_apps_OmniSwitch" revision="nougat" />
   <project path="packages/apps/Launcher3" name="OneRomOne-N/android_packages_apps_Launcher3" revision="nuclear-n" />
   <project path="packages/apps/NuclearPapers" name="OneRomOne-N/android_packages_apps_NuclearPapers" revision="nuclear-n" />
-
+  <project path="packages/apps/CMParts" name="OneRomOne-N/android_packages_apps_CMParts" revision="nuclear-n" />
 
   <!--Oms-->
     <!--To Remove-->
